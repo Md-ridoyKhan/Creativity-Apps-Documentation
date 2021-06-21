@@ -1,0 +1,254 @@
+/**###########################################
+#START
+
+
+--------#####--------
+Template Name: web apps development Documentation
+Template URI: 
+Description: This is html5 template
+Author: Rayhan khan
+Author URI: 
+Version: 1.0
+--------#####--------
+
+
+===========================
+CSS INDEX
+===========================
+
+1. one page
+    1.1 header area here
+    1.2 banner area here
+    1.3 installation area here
+    1.4 pages area here
+    1.5 customization area here
+    1.6 footer contact area here
+
+
+
+#theEND
+###########################################**/
+
+
+/*########################
+1. one page ---------------[########################]
+########################*/
+
+
+/*===========================
+1.1 header area here  
+===========================*/
+header {
+    box-shadow: var(--shadowBottom);
+    background: var(--whiteColor);
+    position: relative;
+    z-index: 111;
+}
+header.active{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    transition: all .5s ease;
+}
+.header-items.actives{
+    height: 80px;
+}
+.header-logo a i {
+    font-size: 22px;
+}
+.header-logo a span {
+    font-size: 22px;
+    margin-left: 4px;
+    font-family: "tt-b";
+}
+.nav {
+    display: block;
+    transition: all .5s ease;
+}
+.nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+li.mobile-cross{
+    display: none;
+}
+.nav li a {
+    display: block;
+    text-transform: uppercase;
+}
+.nav li a:hover{
+    color: var(--mainColor);
+    text-decoration: underline;
+}
+.mobile-menu {
+    display: none;
+}
+.mobile-menu button {
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.mobile-menu button:hover i{
+    color: var(--mainColor);
+}
+.mobile-menu button i {
+    font-size: 24px;
+    display: block;
+}
+/*---------------------------
+header area ends here  
+---------------------------*/
+
+
+/*===========================
+1.2 banner area here  
+===========================*/
+.banner {
+    background: var(--bgColor1);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.banner-items {
+    text-align: center;
+}
+.banner-items h2 {
+    margin-bottom: 20px;
+}
+.banner-items p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "tt-m";
+}
+.banner-items a {
+    font-size: 24px;
+    display: block;
+}
+.banner-items a span {
+    margin-left: 7px;
+}
+.banner-items a span:hover{
+    text-decoration: underline;
+}
+/*---------------------------
+banner area ends here  
+---------------------------*/
+
+
+/*===========================
+1.3 installation area here  
+===========================*/
+#installation,
+#fonts,
+#js,
+footer{
+    background: var(--bgColor2);
+    padding: 120px 0px;
+}
+.installation-content ul li,
+.pages-content ul li,
+.css-content ul li,
+.js-content ul li{
+    margin-bottom: 10px;
+}
+.installation-content ul li:last-child,
+.pages-content ul li:last-child,
+.css-content ul li:last-child,
+.js-content ul li:last-child{
+    margin-bottom: 0px;
+}
+/*---------------------------
+installation area ends here  
+---------------------------*/
+
+
+/*===========================
+1.4 pages area here  
+===========================*/
+#pages,
+#css,
+#customization{
+    background: var(--bgColor1);
+    padding: 120px 0px;
+}
+code {
+    padding: 6px 35px;
+    font-size: 18px;
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    border-radius: 0;
+    word-wrap: break-word;
+}
+/*---------------------------
+pages area ends here  
+---------------------------*/
+
+
+/*===========================
+1.5 customization area here 
+===========================*/
+.customization-content h4 {
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.customization-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.customization-content ul li {
+    margin-top: 40px;
+}
+/*---------------------------
+customization area ends here
+---------------------------*/
+
+
+/*===========================
+1.6 footer contact area here 
+===========================*/
+.footer-contact {
+    text-align: center;
+}
+.footer-contact h1{
+    text-transform: capitalize;
+}
+.footer-contact p:nth-child(3) {
+    margin-bottom: 20px;
+}
+.footer-contact ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    padding-left: 0;
+}
+.footer-contact ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-contact ul li:last-child{
+    margin-right: 0px;
+}
+.footer-contact ul li a {
+    display: block;
+}
+.footer-contact ul li a i {
+    margin-right: 5px;
+}
+/*---------------------------
+footer contact area ends here
+---------------------------*/
+
+
+/*########################
+#theEndCSS########################
+########################*/
